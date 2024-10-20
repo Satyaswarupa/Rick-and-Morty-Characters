@@ -22,7 +22,7 @@ const EpisodeList: React.FC<{ onSelect: (id: number) => void }> = ({
 
   const handleSelect = (id: number) => {
     setSelectedEpisode(id);
-    onSelect(id); // Pass selected episode ID to parent
+    onSelect(id); 
   };
 
   return (
